@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="gameContainer">
+      <div id="header">
+        <h1>2048</h1>
+        <div id="scoreContainer">
+          <div id="scoreLabel">Score</div>
+          <div id="score">0</div>
+        </div>
+        <div id="bestScoreContainer">
+          <div id="bestScoreLabel">Best Score</div>
+          <div id="bestScore">0</div>
+        </div>
+      </div>
+      <div id="gridContainer"></div>
+
+      <div id="gameOver" class="hidden">
+        <h2>Game over! thank you for playing!</h2>
+        <button id="resetButton">Try Again</button>
+      </div>
+      <div id="winResult" class="hidden">
+        <h2>You won the game! Congratulations!</h2>
+        <h4>Keep playing for the best score!</h4>
+      </div>
+    </div>
+  </body>
+</html>
